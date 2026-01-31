@@ -8,5 +8,5 @@ function Half(number) {
   return result;
 }
 
-let numbers = TenX(100);
+let numbers = TenX(100); // we can put function return value into a variable.
 console.log(numbers);
