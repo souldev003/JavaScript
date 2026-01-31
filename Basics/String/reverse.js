@@ -29,7 +29,7 @@
 
 let sentence = "My name is Mehrab Hosen";
 
-let reverse = "";
+let reverse = ""; // chemistry physics
 
 for (latter of sentence) {
   reverse = latter + reverse;
