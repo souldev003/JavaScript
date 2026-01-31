@@ -19,3 +19,7 @@ console.log(typeof realFriend);
 
 let friends = ["Rohim", "Karim", "Abdullah", "Abdur Rahman"];
 console.log(typeof friends);
+
+let newFriends = friends.join(); //
+console.log(newFriends);
+console.log(typeof newFriends);
