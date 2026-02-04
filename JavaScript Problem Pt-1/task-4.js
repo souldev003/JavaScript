@@ -4,13 +4,19 @@
 
 // sample-output: Programming
 
-function getLongestWord(sentence, wordYouNeed) {
-  let word = 0;
-  for (let word of sentence) {
+function getLongestWord(sentence) {
+  let wordBox = sentence.split(" ");
+  let longestWord = "";
+  for (let word of wordBox) {
+    if (word.length > longestWord.length) {
+      longestWord = word;
+    }
   }
+  return longestWord;
 }
 
 let sentence =
   "I am learning programming to become a programmer. I like to solve problem using JavaScript.";
 
 let findLongestWord = getLongestWord(sentence);
+console.log(findLongestWord, findLongestWord.length);
