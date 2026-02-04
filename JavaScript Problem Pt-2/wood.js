@@ -15,8 +15,7 @@ function woodQuantity(chairQuantity, tableQuantity, bedQuantity) {
 
   const totalWoodCost = woodForChair + woodForTable + woodForBed;
 
-  return `Wood needed for ${chairQuantity} Chair: ${woodForChair} CFT. Wood Needed for ${tableQuantity} Table: ${woodForTable} CFT. wood needed for ${bedQuantity} Bed: ${woodForBed} CFT. Total wood cost for all item: ${totalWoodCost} CFT.
-  `;
+  return `Total wood cost for all item: ${totalWoodCost} CFT.`;
 }
 
 let roomDecoration = woodQuantity(2, 2, 1);
