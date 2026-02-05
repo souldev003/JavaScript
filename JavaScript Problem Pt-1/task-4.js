@@ -8,7 +8,7 @@ function getLongestWord(sentence) {
   let wordBox = sentence.split(" ");
   let longestWord = "";
   for (let word of wordBox) {
-    let cleanWord = word.replace(/[.,]/g, "");
+    let cleanWord = word.replace(/[.,]/g, ""); // removing full-stop and comma.
     if (cleanWord.length > longestWord.length) {
       longestWord = cleanWord;
     }
