@@ -49,10 +49,11 @@ const employees = [
   { name: "shohel", experience: 0, starting: 29000, increment: 4000 },
 ];
 
+/* Optional: Highest paid Employees salary Output */
 const highestPaidEmployeeSalary = getHighestPaidEmployee(employees);
 console.log("The highest paid employee salary is:", highestPaidEmployeeSalary);
 
-let totalSalaryEachMonth = salaryCalculator(employees);
+const totalSalaryEachMonth = salaryCalculator(employees);
 console.log(
   "Total Salary For All Employees per month is:",
   totalSalaryEachMonth,
